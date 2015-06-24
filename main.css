@@ -1,0 +1,131 @@
+   
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+    header, .headerhome {
+      margin: auto 0;
+      padding-top: 1px;
+      background: url('img/headphones.jpg');
+      text-align: center;
+      background-size: cover;
+      color: #fff; 
+    }
+    
+    header, .headerabout {
+      margin: auto 0;
+      padding-top: 1px;
+      background: url('img/guitar2.jpg');
+      text-align: center;
+      background-size: cover;
+      color: #fff; 
+    }
+
+    header, .headercontact {
+      margin: auto 0;
+      padding-top: 1px;
+      background: url('img/cloudmountainGray.jpg');
+      text-align: center;
+      background-size: cover;
+      color: #fff; 
+    }
+   
+    p   {
+       font-family: 'Martel', sans-serif;
+    }
+
+
+    a {
+      color: #fff;
+      text-decoration: none;
+      display: inherit;
+      width: 100%;
+      height: 100%;
+    }
+    h1 {
+      font-size: 100px;
+      color: white;
+      font-family:fantasy;
+    }
+
+    img {
+      margin: 40px 0px 0px 0px;
+      border-radius: 100%;
+      max-height: 250px;
+      margin-right: 1000px;
+      float: left; 
+      -webkit-transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+     -o-transition: all 0.5s ease-in-out;
+     -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+
+    }
+
+    .grayscale img {
+   filter: grayscale(1);
+	-webkit-filter: grayscale(1);
+	-moz-filter: grayscale(1);
+	-o-filter: grayscale(1);
+	-ms-filter: grayscale(1); 
+}
+
+.grayscale img:hover
+{
+	filter: grayscale(0);
+	-webkit-filter: grayscale(0);
+	-moz-filter: grayscale(0);
+	-o-filter: grayscale(0);
+	-ms-filter: grayscale(0);
+}
+    
+    .backgroundgrey {
+    background-color: burlywood;
+    }
+
+.backgroundtan {
+    background-color: darkgray
+}
+    ul {
+      padding: 18px;
+      background: rgba(139, 44, 110, 0.54);
+      margin-bottom: 0;
+    }
+    li {
+      display: inline;
+      padding: 5px 15px 5px 15px;
+      background: rgb(196, 78, 78);
+    }
+      
+    article {
+      max-width: 700px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    
+    @media screen and (max-width: 850px) {
+        img {
+        max-height: 180px;
+        }
+        
+        h1 {
+        font-size: 70px;
+        }
+    }
+    
+    @media screen and (max-width: 710px) {
+      img {
+        max-height: 80px;
+      }
+      h1 {
+        font-size: 36px;
+        }
+      li {
+        display: block;
+        padding: 10px 10px 10px 10px;
+        margin-top: 15px;
+        
+        }
+      }
